@@ -3,6 +3,7 @@
   <head>
     <title>The Immortals | Gov Portal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>alert("This page is in early Alpha, if you do not know what this page is for YOU DONT HAVE ACCESS"); alert("If the page does not load in 30 seconds, please make sure JavaScript is enabled");</script>
     <style>
       html{
         font-family: sans-serif;
@@ -93,8 +94,17 @@
 }
     </style>
   </head>
-  <body>
-    <div class="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+  <body onload="loadScript()">
+    <div class="lds-default" id="lds"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+  
+    <script>
+      function loadScript(){
+        setTimeout(function() {
+          document.getElementById("lds").style.display = "none";
+          document.getElementById("Content").style.display = "block";
+        }, 3000);
+      }
+    </script>
   </body>
 </html>
       
