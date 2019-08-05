@@ -102,7 +102,7 @@
       <button onclick="requestScript()">Sign In</button>
       <p>Yes, I know it is not beautiful, it is in early Alpha, deal with it</p> 
       <p>-dude2093350<br /><small>Web Software Engineer</small></p>
-    <script>
+    <!--Initialize--><script>
       function loadScript(){
         setTimeout(function() {
           document.getElementById("lds").style.display = "none";
@@ -110,6 +110,22 @@
         }, 3000);
       }
     </script>
+    <!--Log In--><script>
+      function requestScript(){
+        document.getElementById("Content").style.display = "none";
+        document.getElementById("lds").style.display = "inline-block";
+        setTimeout(function() {
+          var User = document.getElementById("username").value;
+          var Pass = document.getElementById("password").value;
+          
+          if(User == "dude2093350" || Pass == "1qazXSW@"){
+            alert("Logged In");
+          }
+          else{
+            document.write("username and/or password was incorrect");
+          }
+        }, 3000);
+      </script>
   </body>
 </html>
       
