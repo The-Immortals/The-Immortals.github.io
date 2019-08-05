@@ -96,10 +96,12 @@
   </head>
   <body onload="loadScript()">
     <div class="lds-default" id="lds"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
-    <div id="content">
+    <div id="content" style="display: none;">
       <input type="text" id="username" placeholder="Username"><br />
-      <input type="password" id="password" placeholder="Password">
+      <input type="password" id="password" placeholder="Password"><br />
       <button onclick="requestScript()">Sign In</button>
+      <p>Yes, I know it is not beautiful, it is in early Alpha, deal with it</p> 
+      <p>-dude2093350<br /><small>Web Software Engineer</small></p>
     <script>
       function loadScript(){
         setTimeout(function() {
