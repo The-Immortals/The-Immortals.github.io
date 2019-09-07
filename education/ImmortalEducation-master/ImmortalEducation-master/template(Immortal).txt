@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Immortals | Training Program</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="https://politicsandwar.com/alliance/id=5875">The Immortals | Education Center</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../course.html">Course</a>
+      </li>
+      <li>
+        <a class="nav-link" href="../test.html">Test</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  <div class="alert alert-success" role="alert">
+  If you are a member of The Immortals' government and have access to the resources, <a href="https://dude2093350.github.io/TheImmortals/logon.html">check out here</a>
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  </div>
+<div class="jumbotron text-center">
+  <h1 class="display-4">The Immortals | Education Center</h1>
+  <p class="lead">In-Depth resources for members of The Immortals.</p>
+  <hr class="my-4">
+  <p>Learn your way around and prove your skills with this course and test provided by The Immortals</p>
+  <a class="btn btn-primary btn-lg" href="course.html" role="button">Get Started</a>
+</div>
+<br />
+<br />
+<hr />
+<p class="text-center">Website &copy Erik Christensen <br /> Resources &copy <a href="https://politicsandwar.com/nation/id=155303">Tyrion Lanister</a></p>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

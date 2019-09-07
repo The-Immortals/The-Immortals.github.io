@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Immortals | Training Program</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="https://politicsandwar.com/alliance/id=5875">The Immortals | Education Center</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../course.html">Course</a>
+      </li>
+      <li>
+        <a class="nav-link" href="../test.html">Test</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<br />
+<br />
+<h1 class="text-center">The Immortals Alliance Rules</h1>
+<hr />
+<p><strong>Rules for raiding:</strong></p>
+<ol>
+    <li>First and foremost, all raids against <i>nations in any alliance</i> must 
+    be approved in #raid-approvals.</li>
+    <li>Raid targets must not be in an alliance that is ranked in the top 40.</li>
+    <li>Targets must not be in an alliance that has a treaty with a top 40 alliance.</li>
+    <li>Targets must not be in an alliance we have a treaty with.</li>
+    <li>Nations that are not in an alliance may be raided at will.</li>
+</ol>
+<p><strong>Activity Level:</strong></p>
+<p>You must log into your nation <i>at least</i> once a day - once a week does not
+work here. You will be exposed to raiders if you are not active. If you expect to be out 
+of touch for more than a day or two, let us know so we can watch over your nation. If you expect to
+to be gone for a week or more, seriously consider going into vacation mode.</p>
+<p>If you are not active, government members may remove you from the membership at any time. You will have to
+    reapply after. We do this because people who are raided and are officially "defeated" in their wars allow their
+    attackers to loot the alliance bank of its money and resources. These come from the taxes of the general
+    membership so they deserve to be protected.
+</p>
+<p><strong>Discord:</strong></p>
+<p>We expect members to check in on discord at least once a day. Even if you don’t talk in discord and lurk in the
+    shadows, you can see updates and what is going on in the alliance (but please speak up, we want to hear you!).
+</p>
+<p>
+    Discord is key as it allows us to have real-time conversations with each other. It helps government members
+interact with the general membership. As you can imagine, this can be extremely helpful for keeping up with
+events, discussing new ideas, and coordination during a war. It's also a great place to learn from experienced
+members or get help if you are attacked.
+</p>
+<p><strong>Behaviour when interacting with others outside the alliance:</strong></p>
+<p>
+    Simply, do not be rude. This means be respectful in our and another alliance's discord servers. Be respectful when
+    sending messages in-game. Even if someone attacked you, be an honourable opponent. 
+</p>
+<p><strong>Grant repayment:</strong></p>
+<p>Grants are given to members to grow the strength of the membership of our alliance. That is an investment in
+    The Immortals and so if a member decides to leave after receiving a grant, we expect to receive a refund on that
+    investment. If a member leaves, all grants received within the previous 60 days must be paid immediately.
+    Failure to pay within 7 days will cause 5% weekly interest to be assessed and the alliance retains the right to
+    military action to get the amount owed.
+</p>
+<br />
+<p>Test your self: <i>(Try this question to help you on the test!)</i><br />
+<i><strong>Can you attack a nation in the Grumpy Old Bastards alliance?</strong></i><br />
+<input type="text" placeholder="Y or N" id="test" class="form-control">
+<br />
+<button onclick="gradeFunction()" class ="btn btn-primary">Answer</button>
+</p>
+<script>
+    function gradeFunction() {
+        var value = document.getElementById("test").value;
+
+        if(value == "Y" || value == "y"){
+            alert("That is incorrect, Grumpy Old Bastards is an alliance in the top 40.");
+        }
+        else  if(value == "N" || value =="n"){
+            alert("That is correct, even if you ask Milcom, permission will not be granted.");
+        }
+        else {
+            alert("We do not know what you mean, please try again.");
+        }
+    }
+</script>
+<br />
+<br />
+<hr />
+<p class="text-center">Website &copy Erik Christensen <br /> Resources &copy <a href="https://politicsandwar.com/nation/id=155303">Tyrion Lanister</a></p>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
