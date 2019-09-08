@@ -5,6 +5,6 @@ Official repository of the website of the Immortals
 None at this time
 <br />
 ## Attribution:
-Copyright (C) 2019 dude2093350
-Copyright (C) 2019 Scratchy144
+Copyright (C) 2019 dude2093350<br />
+Copyright (C) 2019 Scratchy144<br />
 Copyright (C) 2019 Alcyrnmyn
