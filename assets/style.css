@@ -31,7 +31,6 @@ body{
     left: 40vw;
     height: 60%;
     top: 8vw;
-    animation: spin 60s infinite linear;
 }
 /*Make Image darker on mobile */
 @media (min-width: 480px) and (max-width: 980px){
