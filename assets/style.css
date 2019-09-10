@@ -1,0 +1,192 @@
+html{
+    overflow-x: hidden;
+    background-image: url(../assets/background.jpg);
+    background-position: left;
+    background-attachment: fixed;
+
+}
+/*overwrite*/
+body{
+    background-color: rgba(34, 34, 34, 0.596) !important;
+}
+.nomargin{
+    margin: 0px !important;
+}
+
+/* Header / Jumbotron at the top */
+.header{
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50vw;
+    color:white;
+
+    height:  100vh;
+   
+  
+}
+.header img{
+    position: absolute;
+    z-index: 0;
+    left: 40vw;
+    height: 60%;
+    top: 8vw;
+}
+/*Make Image darker on mobile */
+@media (min-width: 480px) and (max-width: 980px){
+    .header img{
+       filter: brightness(0.4)
+    }
+}
+.header h1{
+    margin-top: 40%;
+    position: relative;
+    font-size: 400%;
+}
+
+hr{
+  position: relative;
+  z-index: 2;
+  width: 0%;
+  animation: hr 3s;
+  text-align: center;
+  animation-fill-mode: forwards;
+}
+@keyframes hr{
+0%{
+  width: 0%
+}
+100%{
+    width: 100%; border-color:white;
+}
+
+}
+
+
+
+/*Button Styling */
+.link{
+    display: inline-block; 
+    color:white;
+    padding: 1%;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+    animation: link 1s ease-in-out forwards;
+    transform: translateX(-510px);
+    -webkit-transform: translateX(-510px);
+    border: rgba(0, 0, 0,0) 2px solid;
+ 
+}
+.link:hover{
+    text-decoration:none;
+    border-bottom: rgba(255, 255, 255,1) 2px solid;
+    color:white;
+    text-shadow: white 0px 0px 5px;
+    padding: 1%;
+    border-radius: 5px;
+   
+    
+}
+.sideMenu{
+    background-color: rgba(160, 49, 49, 0);
+    z-index: 2;
+    position: absolute;
+    height: 100vh;
+    padding-left: 10%;
+    padding-right: 5%;
+    transition: all ease-in-out 0.5s;
+
+}
+.sideMenu:hover{
+    background-color: rgba(184, 172, 14,0.5);
+   
+
+}
+/*Overwrite*/
+.container{
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+}
+
+@-webkit-keyframes link{
+    0%{
+        -webkit-transform: translateX(-510px);
+                transform: translateX(-510px)
+    }
+    90%{
+        -webkit-transform: translateX(20px);
+                transform: translateX(20px)
+    }
+    100%{
+        -webkit-transform: translateX(0px);
+                transform: translateX(0px)
+    }
+}
+@keyframes link{
+    0%{
+        -webkit-transform: translateX(-510px);
+                transform: translateX(-510px)
+    }
+    90%{
+        -webkit-transform: translateX(20px);
+                transform: translateX(20px)
+    }
+    100%{
+        -webkit-transform: translateX(0px);
+                transform: translateX(0px)
+    }
+}
+@keyframes 
+{
+    from{
+        transform: rotateZ(0deg)
+    }
+    to{
+        transform: rotateZ(360deg)
+    }
+}
+@-webkit-keyframes spin{
+    from{
+        -webkit-transform: rotateZ(0deg)
+    }
+    to{
+        transform: rotateZ(360deg)
+    }
+}
+
+
+
+
+/* Content*/
+.content{
+    position: relative;
+    z-index: 1;
+    background-color: rgba(34, 34, 34, 0.8) !important;
+    backdrop-filter: blur(1px);
+}
+
+/* Css for cards */
+.gov img{
+    width: auto;
+    height: auto;
+}
+.govDisplay{
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 20vw
+}
+.govDisplayPri{
+    margin-right: 1%;
+    margin-left: 1%;
+    width: 12vw
+
+}
+/* Special text for gov title */
+.first{
+    color: rgb(117, 9, 9);
+    text-shadow: white 0px 0px 5px;
+}
+.cosmic{
+    color: rgb(46, 4, 80);
+    text-shadow: white 0px 0px 5px;
+}
